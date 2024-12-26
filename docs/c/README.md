@@ -14,4 +14,3 @@ int main() {
 
 int a = 10;
 long b = 1000000L;
-unsigned int c = 100U;
