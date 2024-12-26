@@ -13,25 +13,17 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # 更新到 Node.js 16 或更高版本
+          node-version: '18'
 
       - name: Check Node.js and npm version
         run: |
           node --version
           npm --version
 
-      - name: Cache node modules
-        uses: actions/cache@v3
-        env:
-          cache-name: cache-node-modules
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
-
-      - name: Install dependencies
-        run: npm ci  # 使用 ci 而不是 install 以确保一致性
+      - name: Clean install dependencies
+        run: |
+          rm -rf node_modules
+          npm ci
 
       - name: Build
         run: npm run docs:build
