@@ -1,1 +1,0 @@
-# Go Language Cheatsheet

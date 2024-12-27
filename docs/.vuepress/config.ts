@@ -12,9 +12,8 @@ export default defineUserConfig({
     theme: defaultTheme({
         sidebar: [
             '/',
-            '/c/',
-            '/go/',
-            // 添加更多语言
+            '/systemd/',
+            '/bypy/',
         ],
         colorMode: 'auto', //auto 为自动 dark 为黑暗模式
         colorModeSwitch: true,
