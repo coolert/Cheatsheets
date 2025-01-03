@@ -15,7 +15,7 @@ export default defineUserConfig({
             '/systemd/',
             '/bypy/',
             '/supervisor/',
-            '/bangumi-data',
+            '/bangumi-data/',
         ],
         colorMode: 'auto', //auto 为自动 dark 为黑暗模式
         colorModeSwitch: true,
