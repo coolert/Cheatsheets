@@ -20,6 +20,12 @@ supervisorctl stop <process_name>
 supervisorctl restart <process_name>
 ```
 
+#### 存在多个子进程时,全部重启
+
+```shell
+supervisorctl restart <process_name>:*
+```
+
 ### 启动全部进程
 
 ```shell
