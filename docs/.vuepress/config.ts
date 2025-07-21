@@ -16,7 +16,7 @@ export default defineUserConfig({
             '/bypy/',
             '/supervisor/',
             '/bangumi-data/',
-            '/adb'
+            '/adb/'
         ],
         colorMode: 'auto', //auto 为自动 dark 为黑暗模式
         colorModeSwitch: true,
