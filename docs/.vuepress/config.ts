@@ -17,7 +17,8 @@ export default defineUserConfig({
             '/supervisor/',
             '/bangumi-data/',
             '/adb/',
-            '/phpstorm/'
+            '/phpstorm/',
+            '/composer/'
         ],
         colorMode: 'auto', //auto 为自动 dark 为黑暗模式
         colorModeSwitch: true,
