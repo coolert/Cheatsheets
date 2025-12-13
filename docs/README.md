@@ -1,7 +1,8 @@
 # Cheatsheets
 
-## 本地启动
+## 启动
 
 ```npm
+npm install
 npm run docs:dev
 ```
