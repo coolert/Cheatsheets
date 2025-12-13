@@ -18,7 +18,9 @@ export default defineUserConfig({
             '/bangumi-data/',
             '/adb/',
             '/phpstorm/',
-            '/composer/'
+            '/composer/',
+            '/git/',
+            '/crontab/'
         ],
         colorMode: 'auto', //auto 为自动 dark 为黑暗模式
         colorModeSwitch: true,
