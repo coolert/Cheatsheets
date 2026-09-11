@@ -20,7 +20,8 @@ export default defineUserConfig({
             '/phpstorm/',
             '/composer/',
             '/git/',
-            '/crontab/'
+            '/crontab/',
+            '/linux/'
         ],
         colorMode: 'auto', //auto 为自动 dark 为黑暗模式
         colorModeSwitch: true,
