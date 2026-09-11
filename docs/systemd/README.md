@@ -53,3 +53,11 @@ systemctl list-units --type=service
 ```bash
 systemctl list-unit-files --type=service
 ```
+
+## 日志
+
+```bash
+# 查看单个服务日志
+journalctl -u nginx
+journalctl -u nginx.service
+```
